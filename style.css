@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output{
+    color: white;
+    font-size: 70px;
+    font-family: 'Press Start 2P';
+}
+
+
+.cursor {
+  display: inline-block;
+  width: auto;
+  color: white;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
