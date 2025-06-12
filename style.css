@@ -14,10 +14,8 @@ body{
 }
 
 
-.cursor {
+#cursor {
   display: inline-block;
-  width: auto;
-  color: white;
   animation: blink 1s steps(2, start) infinite;
 }
 
